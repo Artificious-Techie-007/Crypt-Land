@@ -5,6 +5,7 @@ import CryptLandLogo from "./cryptassessts/CryptLogo.svg";
 import "./styles.css";
 import DashBoardComponet from "./DashboardComponent.jsx";
 import PatnersLogo from "./patnerscomponents.jsx";
+import DeliverablesComponent from "./deliveriescomponents.jsx";
 
 function HeroSectionComponent() {
   return (
@@ -42,6 +43,7 @@ function HeroSectionComponent() {
       </div>
         <DashBoardComponet/>  
         <PatnersLogo/>
+        <DeliverablesComponent/>
     </div>
     </>
   );
