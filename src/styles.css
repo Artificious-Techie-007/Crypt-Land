@@ -11,6 +11,8 @@
     flex-direction:column;
     text-align:center;
     transform: scale(0.9);
+    border:white solid;
+    border-radius: 30px;
   
   }
   .HeroSectionComponentContainer{
@@ -442,7 +444,7 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 690px;
+  left: 680px;
   top: 2px;
   font-family: Inter;
   font-weight: 800;
@@ -477,6 +479,8 @@ h3
     flex-wrap: wrap;
     gap: 30px;
     font-size: 15px;
+    position: relative;
+    left: 8px;
 }
 
 .employee-section li {
@@ -658,4 +662,39 @@ a
 {
   position: relative;
   left: 100px;
+}
+
+
+.founderbox
+{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  font-family: Inter;
+  position: relative;
+  width: 3000px;
+  transform: scale(0.5);
+  border: white solid;
+  border-radius: 30px;
+  bottom: 600px;
+}
+
+.founderbox
+.title
+{
+  font-size: 100px;
+  position: relative;
+  bottom: 10px;
+}
+.founderbox
+.subtitle
+{
+  font-size: 40px;
+  position: relative;
+  bottom: 100px;
 }

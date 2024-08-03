@@ -6,6 +6,7 @@ import "./styles.css";
 import DashBoardComponet from "./DashboardComponent.jsx";
 import PatnersLogo from "./patnerscomponents.jsx";
 import DeliverablesComponent from "./deliveriescomponents.jsx";
+import FounderComponent from "./founderComponents.jsx";
 
 function HeroSectionComponent() {
   return (
@@ -44,6 +45,8 @@ function HeroSectionComponent() {
         <DashBoardComponet/>  
         <PatnersLogo/>
         <DeliverablesComponent/>
+        <FounderComponent/>
+        
     </div>
     </>
   );

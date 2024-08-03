@@ -26,7 +26,7 @@ function PatnersLogo(){
             
         </>
 
-    );
+    )
 }
 
 export default PatnersLogo;
