@@ -12,7 +12,7 @@
     text-align:center;
     transform: scale(0.9);
     border:white solid;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
   
   }
   .HeroSectionComponentContainer{
@@ -680,7 +680,7 @@ a
   width: 3000px;
   transform: scale(0.5);
   border: white solid;
-  border-radius: 30px;
+ /* border-radius: 30px;*/
   bottom: 600px;
 }
 
