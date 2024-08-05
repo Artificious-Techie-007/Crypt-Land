@@ -1,4 +1,4 @@
-import LogoComponent from "./Logos";
+import LogoComponent from "./Logos.jsx"
 import PageTitle from "./PageTitle.jsx";
 import Subheader from "./subheader.jsx";
 import ceo1 from "./cryptassessts/ceo1.svg"
@@ -13,7 +13,8 @@ function FounderComponent(){
         " founders so they can get back to doing what they do best-building"]} />
 
         <div className="ceo1container">
-          <LogoComponent logo={ceo1} text={'Benjamin Franklin'}/>
+          <img src="cryptassessts/ceo1.png" alt="" />
+          <LogoComponent logo={''} text={''}/>
         </div>
         </div>
 
